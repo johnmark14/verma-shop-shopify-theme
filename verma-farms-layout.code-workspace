@@ -23,7 +23,7 @@
 		],
 		"liveSassCompile.settings.excludeList": [
   
-			"**/node_modules/**", ".vscode/**", "sass/**"],
+			"**/node_modules/**", ".vscode/**", "bulma-sass/**", "bulma.sass"],
 		"liveSassCompile.settings.autoprefix": [
 			"> 1%",
 			"last 2 versions"

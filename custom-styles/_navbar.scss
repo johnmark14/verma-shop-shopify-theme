@@ -1,0 +1,39 @@
+.navbar {
+    padding-top: 30px;
+    background-color: $background-color1;
+
+    &-menu {
+        margin-left: 20px;
+    }
+
+    &-item {
+        .title {
+            font-weight: 900;
+        }
+
+        &.link {
+            font-weight: 400;
+            font-size: 17px;
+            // background-color: transparent;
+
+            &:hover, &:active, &:visited, &:focus-within {
+                background-color: transparent !important;
+                color: inherit;
+                border: none;
+            }
+        }
+
+        &__wrapper {
+            position: relative;
+            display: flex;
+            img {
+                width: 100%;
+            }
+            span {
+                position: absolute;
+                top: 7px;
+                left: 12px;
+            }
+        }
+    }
+}

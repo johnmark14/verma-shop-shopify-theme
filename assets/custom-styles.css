@@ -1,0 +1,40 @@
+.navbar {
+  padding-top: 30px;
+  background-color: #EDD3C1;
+}
+
+.navbar-menu {
+  margin-left: 20px;
+}
+
+.navbar-item .title {
+  font-weight: 900;
+}
+
+.navbar-item.link {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.navbar-item.link:hover, .navbar-item.link:active, .navbar-item.link:visited, .navbar-item.link:focus-within {
+  background-color: transparent !important;
+  color: inherit;
+  border: none;
+}
+
+.navbar-item__wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar-item__wrapper img {
+  width: 100%;
+}
+
+.navbar-item__wrapper span {
+  position: absolute;
+  top: 7px;
+  left: 12px;
+}
