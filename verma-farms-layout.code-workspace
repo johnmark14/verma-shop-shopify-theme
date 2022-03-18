@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveSassCompile.settings.excludeList": [
+			"**/node_modules/**",
+			".vscode/**"
+		],
+		"liveSassCompile.settings.formats": [
+			{
+				"format": "compressed",
+				"extensionName": ".min.css",
+				"savePath": "/assets"
+			},
+			{
+				"format": "expanded",
+				"extensionName": ".css",
+				"savePath": "/assets"
+			}
+		],
+		"liveSassCompile.settings.excludeList": [
+  
+			"**/node_modules/**", ".vscode/**", "sass/**"],
+		"liveSassCompile.settings.autoprefix": [
+			"> 1%",
+			"last 2 versions"
+		],
+		"liveSassCompile.settings.generateMap": false,
+	}
+}
