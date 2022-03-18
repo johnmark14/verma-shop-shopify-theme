@@ -28,7 +28,7 @@
 <h3 align="center">Verma farms Layout</h3>
 
 <p align="center">
-    project_description
+    Design Prototype
   </p>
 </div>
 
