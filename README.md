@@ -104,7 +104,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 John - [@Email]() - johmarkgabrentina@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://johnmark14.github.io/verma-shop-shopify-theme/index.html](https://johnmark14.github.io/verma-shop-shopify-theme/index.html)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
