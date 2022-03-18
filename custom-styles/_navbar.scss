@@ -1,7 +1,7 @@
 .navbar {
     padding-top: 30px;
     background-color: $background-color1;
-
+    
     &-menu {
         margin-left: 20px;
     }
@@ -12,13 +12,13 @@
         }
 
         &.link {
-            font-weight: 400;
-            font-size: 17px;
+            font-weight: 500;
+            font-size: 18px;
             // background-color: transparent;
 
             &:hover, &:active, &:visited, &:focus-within {
                 background-color: transparent !important;
-                color: inherit;
+                color: $normal-text-color;
                 border: none;
             }
         }
@@ -31,8 +31,11 @@
             }
             span {
                 position: absolute;
-                top: 7px;
-                left: 12px;
+                top: 10px;
+                left: 13px;
+                font-size: 14px;
+                font-weight: 600;
+                color: $bold-text-color;
             }
         }
     }
