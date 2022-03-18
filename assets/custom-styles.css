@@ -51,15 +51,17 @@ body {
 }
 
 .hero {
-  height: 100vh;
+  height: 110vh;
   background-image: url("../v-assets/homepage/homepage-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
+  display: block;
 }
 
 .hero-body .container {
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 .hero-body .container .block {
@@ -81,11 +83,16 @@ body {
 
 .hero-body .container .block .button {
   width: 210px;
-  padding: 28px 0;
+  padding: 26px 0;
   margin-left: 15px;
   background-color: #F6914E;
   color: white;
   border: none;
   -webkit-box-shadow: 0.5px 10.6px 8.2px rgba(0, 0, 0, 0.037), 0.9px 20px 15px rgba(0, 0, 0, 0.051), 1.3px 28.8px 20.9px rgba(0, 0, 0, 0.06), 1.9px 40.8px 28px rgba(0, 0, 0, 0.071), 4px 86px 56px rgba(0, 0, 0, 0.1);
           box-shadow: 0.5px 10.6px 8.2px rgba(0, 0, 0, 0.037), 0.9px 20px 15px rgba(0, 0, 0, 0.051), 1.3px 28.8px 20.9px rgba(0, 0, 0, 0.06), 1.9px 40.8px 28px rgba(0, 0, 0, 0.071), 4px 86px 56px rgba(0, 0, 0, 0.1);
+}
+
+.hero-lottie {
+  position: absolute;
+  bottom: -32%;
 }
