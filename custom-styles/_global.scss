@@ -4,4 +4,9 @@ body {
 
 .bold-text {
     color: $bold-text-color;
+    font-weight: 900;
+}
+
+.section-title {
+    padding-top: 80px;
 }

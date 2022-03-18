@@ -1,0 +1,67 @@
+.card-image {
+    background-color: $background-color2;
+    position: relative;
+    &__body {
+        .container {
+            .block {
+                text-align: center;
+                .subtitle {
+                    margin-top: 10px;
+                    max-width: 420px;
+                    display: inline-block;
+                    color: $normal-text-color;
+                }
+            }
+        }
+        .card {
+            max-width: 330px;
+            border-radius: 6%;
+            overflow: hidden;
+            &-image {
+                overflow: hidden;
+                height: 380px;
+                .image {
+                    img {
+                        transform: scale(125%) translateY(10%);
+                        object-fit: cover;
+                    }
+                }
+            }
+    
+            &-content {
+                padding: 12px;
+                .content {
+                    padding: 0 52px;
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .columns {
+            padding: 40px 0 80px 0;
+            .column {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &:nth-child(1) {
+                    justify-content: flex-end;
+                }
+
+                &:nth-child(3) {
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }
+
+    &__lottie {
+        transform: rotateX(180deg) rotateY(180deg);
+        position: absolute;
+        bottom: -550px;
+    }
+
+}
+
+
