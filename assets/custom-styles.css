@@ -103,7 +103,7 @@ body {
 }
 
 .card-image {
-  background-color: #FEFAF8;
+  background-color: #FCF4ef;
   position: relative;
 }
 
@@ -147,7 +147,7 @@ body {
 }
 
 .card-image__body .columns {
-  padding: 40px 0 80px 0;
+  padding: 40px 0 260px 0;
 }
 
 .card-image__body .columns .column {
@@ -175,8 +175,6 @@ body {
 }
 
 .card-image__lottie {
-  -webkit-transform: rotateX(180deg) rotateY(180deg);
-          transform: rotateX(180deg) rotateY(180deg);
   position: absolute;
-  bottom: -550px;
+  bottom: -335px;
 }

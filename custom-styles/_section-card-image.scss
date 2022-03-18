@@ -39,7 +39,7 @@
         }
 
         .columns {
-            padding: 40px 0 80px 0;
+            padding: 40px 0 260px 0;
             .column {
                 display: flex;
                 align-items: center;
@@ -57,9 +57,8 @@
     }
 
     &__lottie {
-        transform: rotateX(180deg) rotateY(180deg);
         position: absolute;
-        bottom: -550px;
+        bottom: -335px;
     }
 
 }
