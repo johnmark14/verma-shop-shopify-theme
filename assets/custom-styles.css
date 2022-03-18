@@ -7,8 +7,26 @@ body {
   font-weight: 900;
 }
 
+.subtitle {
+  margin-top: 10px !important;
+  max-width: 420px;
+  font-size: 18px;
+  line-height: 26px;
+  display: inline-block;
+  color: #998C7A;
+}
+
 .section-title {
   padding-top: 80px;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.grid.grid-row-gap-large {
+  grid-row-gap: 90px;
 }
 
 .navbar {
@@ -105,17 +123,11 @@ body {
 .card-image {
   background-color: #FCF4ef;
   position: relative;
+  padding-bottom: 260px;
 }
 
 .card-image__body .container .block {
   text-align: center;
-}
-
-.card-image__body .container .block .subtitle {
-  margin-top: 10px;
-  max-width: 420px;
-  display: inline-block;
-  color: #998C7A;
 }
 
 .card-image__body .card {
@@ -147,7 +159,7 @@ body {
 }
 
 .card-image__body .columns {
-  padding: 40px 0 260px 0;
+  padding-top: 40px;
 }
 
 .card-image__body .columns .column {
@@ -176,5 +188,141 @@ body {
 
 .card-image__lottie {
   position: absolute;
-  bottom: -335px;
+  bottom: -345px;
+}
+
+.grid-icons {
+  background-color: #FEFAF8;
+  padding-bottom: 90px;
+  position: relative;
+}
+
+.grid-icons__body .container:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.grid-icons__body .container:nth-child(1) .block {
+  text-align: center;
+}
+
+.grid-icons__body .container:nth-child(1) .block .logo {
+  width: 60px;
+}
+
+.grid-icons__body .container:nth-child(1) .block .logo img {
+  width: 100%;
+}
+
+.grid-icons__body .container:nth-child(2) .block .grid-icons__wrapper .grid {
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-icons__body .container:nth-child(2) .block .grid-icons__wrapper .grid .grid-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.grid-icons__body .container:nth-child(2) .block .grid-icons__wrapper .grid .grid-item:nth-child(2) {
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+}
+
+.grid-icons__body .container:nth-child(2) .block .grid-icons__wrapper .grid .grid-item:nth-child(3) {
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+}
+
+.grid-icons__body .container:nth-child(2) .block .grid-icons__wrapper .grid .grid-item:nth-child(4) {
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+}
+
+.grid-icons__body .container:nth-child(2) .block .grid-icons__wrapper .grid .grid-item:nth-child(5) {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-row-end: 3;
+  grid-column-end: 4;
+}
+
+.grid-icons__body .container:nth-child(2) .block .grid-icons__wrapper .grid .grid-item__icon {
+  width: 80px;
+}
+
+.grid-icons__body .container:nth-child(2) .block .grid-icons__wrapper .grid .grid-item__icon img {
+  width: 100%;
+}
+
+.grid-icons__body .container:nth-child(2) .block .grid-icons__wrapper .grid .grid-item__icon:last-child {
+  width: 440px;
+  position: relative;
+}
+
+.grid-icons__body .container:nth-child(2) .block .grid-icons__wrapper .grid .grid-item__icon:last-child img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 430px;
+}
+
+.grid-icons__body .container:nth-child(2) .block .grid-icons__wrapper .grid .grid-item__heading {
+  display: inline-block;
+  width: 220px;
+  border-bottom: 3px solid #F6914E;
+  padding: 10px 0;
+}
+
+.grid-icons__body .container {
+  margin-top: 55px;
+}
+
+.grid-icons__body .container .block {
+  text-align: center;
+}
+
+.grid-icons__body .container .block .button {
+  width: 280px;
+  padding: 28px 0;
+  margin-left: 15px;
+  background-color: #3C562C;
+  color: white;
+  border: none;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.grid-icons__lottie {
+  position: absolute;
+  bottom: -750px;
+  -webkit-transform: rotateX(180deg) rotateY(180deg);
+          transform: rotateX(180deg) rotateY(180deg);
 }

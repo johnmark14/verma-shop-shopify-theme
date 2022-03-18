@@ -1,16 +1,11 @@
 .card-image {
     background-color: $background-color2;
     position: relative;
+    padding-bottom: 260px;
     &__body {
         .container {
             .block {
                 text-align: center;
-                .subtitle {
-                    margin-top: 10px;
-                    max-width: 420px;
-                    display: inline-block;
-                    color: $normal-text-color;
-                }
             }
         }
         .card {
@@ -39,7 +34,7 @@
         }
 
         .columns {
-            padding: 40px 0 260px 0;
+            padding-top: 40px;
             .column {
                 display: flex;
                 align-items: center;
@@ -58,7 +53,7 @@
 
     &__lottie {
         position: absolute;
-        bottom: -335px;
+        bottom: -345px;
     }
 
 }

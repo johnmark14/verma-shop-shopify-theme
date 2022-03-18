@@ -7,6 +7,23 @@ body {
     font-weight: 900;
 }
 
+.subtitle {
+    margin-top: 10px !important;
+    max-width: 420px;
+    font-size: 18px;
+    line-height: 26px;
+    display: inline-block;
+    color: $normal-text-color;
+}
+
 .section-title {
     padding-top: 80px;
+}
+
+.grid {
+    display: grid;
+
+    &.grid-row-gap-large {
+        grid-row-gap: 90px;
+    }
 }
