@@ -29,6 +29,18 @@ body {
   grid-row-gap: 90px;
 }
 
+@media screen and (max-width: 749px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .show-mobile {
+    display: block !important;
+  }
+}
+
 .navbar {
   padding-top: 30px;
   background-color: #EDD3C1;
@@ -325,4 +337,28 @@ body {
   bottom: -750px;
   -webkit-transform: rotateX(180deg) rotateY(180deg);
           transform: rotateX(180deg) rotateY(180deg);
+}
+
+.mobile-info {
+  display: none;
+  height: 100vh;
+  background-color: #EDD3C1;
+}
+
+.mobile-info .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mobile-info .container .block {
+  text-align: center;
+  max-width: 390px;
 }

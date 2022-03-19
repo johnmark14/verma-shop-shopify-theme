@@ -27,3 +27,15 @@ body {
         grid-row-gap: 90px;
     }
 }
+
+.hide-mobile {
+    @media screen and (max-width: 749px) {
+        display: none !important;
+    }
+}
+
+.show-mobile {
+    @media screen and (max-width: 749px) {
+        display: block !important;
+    }
+}

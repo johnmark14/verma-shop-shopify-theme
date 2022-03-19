@@ -1,0 +1,17 @@
+.mobile-info {
+    display: none;
+    height: 100vh;
+    background-color: $background-color1;
+    
+    .container {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .block {
+            text-align: center;
+            max-width: 390px;
+        }
+    }
+}
